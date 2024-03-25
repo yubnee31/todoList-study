@@ -10,15 +10,15 @@ const Input = () => {
 
   return (
     <form onSubmit={submitForm}>
-      <label>제목</label>
+      <label className="mr-2">제목</label>
       <input
-        className="border-2 border-blue-700"
+        className="border-2 border-blue-700 mr-2"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       ></input>
-      <label>내용</label>
+      <label className="mr-2">내용</label>
       <input
-        className="border-2 border-blue-700"
+        className="border-2 border-blue-700 mr-2"
         value={content}
         onChange={(e) => setContent(e.target.value)}
       ></input>
